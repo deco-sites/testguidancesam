@@ -3,9 +3,34 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>It Works!</p>",
-      "count": 1
+      "__resolveType": "site/sections/Header.tsx",
+      "links": {
+        "links": [
+          {
+            "key": "123213"
+          },
+          {
+            "key": "123123"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product.tsx",
+      "name": "Camisa do Galo",
+      "price": 200,
+      "description": "Uma camisa do galo, ótima se voce torce para o time do galo",
+      "sizes": [
+        "Pequena",
+        "Grande",
+        "Média"
+      ],
+      "images": [
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/testguidancesam/6da571dc-ff1b-4a45-8178-3e5139dcc2e4/90_camisa_atletico_mineiro_galo_asphalt_torcedor_all_black_masculina_2061_1_e718a1b25d6330c22c6f0b41d75c0424.webp",
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/testguidancesam/bed93c2a-f963-416c-9adc-659f0830dc66/90_camisa_atletico_mineiro_galo_asphalt_torcedor_all_black_masculina_2061_4_7ef47f68eb562927fd799a76af998118.webp",
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/testguidancesam/8cde62fa-43b6-4aaa-a79c-82694635e019/90_camisa_atletico_mineiro_galo_asphalt_torcedor_all_black_masculina_2061_3_6f1dd5c4e981fffaaab06b8ef2b09d4b.webp",
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/testguidancesam/14111140-335a-45f7-98a2-1a3458c36f42/90_camisa_atletico_mineiro_galo_asphalt_torcedor_all_black_masculina_2061_2_7fd582b630008aa9583b7abfd784cab9.webp"
+      ]
     },
     {
       "__resolveType": "Footer"
